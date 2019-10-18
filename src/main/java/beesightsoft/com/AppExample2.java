@@ -31,7 +31,7 @@ public class AppExample2 {
          * Job type fetch-items => take input orderItems and output new array with item name as itemId-ready as shipItems
          * Job type ship-parcel => take input shipItems and done
          */
-//        createWorkflowInstance(client);
+        createWorkflowInstance(client);
         collectMoneyJobWorker(client);
         fetchItemsJobWorker(client);
         shipParcelJobWorker(client);

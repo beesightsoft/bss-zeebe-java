@@ -16,3 +16,6 @@ https://docs.zeebe.io/java-client/get-started.html
 
 ### Run jar file
 Run `mvn package`, and it will generate a JAR file in the target subdirectory. You can run this with `java -jar target/${JAR file}`
+
+## Preview
+![Zeebe preview](preview.png)
